@@ -4,18 +4,47 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>NeoWave-Tech02</title>
+    <!-- Google fonts link-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet">
+    <!--Tailwind CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <!-- linked css -->
     <link rel="stylesheet" href="./Styles/style.css">
-    <!-- tailwind CDN -->
-    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <!-- Font awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
-<body>
+<body class="inter-global-font">
     <!-- header starts here -->
-    <header>
-        <nav>
+    <header class="bg-dark-primary">
+        <nav class=" flex justify-between w-11/12 mx-auto items-center">
+            <div class="">
+                <h1 class="text-4xl font-bold p-4">
+                    <span class="text-white">Tech</span> <span
+                        class="bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 text-transparent bg-clip-text">Wave</span>
+                </h1>
+            </div>
+            <div class="hidden lg:block">
+                <ul class="flex gap-5">
+                    <li class="text-white text-sm">About</li>
+                    <li class="text-white text-sm">Episodes</li>
+                    <li class="text-white text-sm">Host</li>
+                </ul>
 
+            </div>
+            <div class="">
+                <button
+                    class="hidden lg:block sm:hidden bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 tex-white rounded-3xl text-white p-2 text-sm"
+                    type="button">Subscribe <i class="fa-solid fa-arrow-right-long"></i></button>
+                <img src="./assets/hamburger-menu.png" class="lg:hidden sm:block" alt="">
+            </div>
         </nav>
     </header>
     <!-- main starts here -->

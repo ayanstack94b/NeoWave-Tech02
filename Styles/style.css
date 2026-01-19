@@ -1,0 +1,9 @@
+.inter-global-font {
+  font-family: "Inter", sans-serif;
+}
+/* shared styles */
+.bg-dark-primary {
+  background-color: #1a0b2e;
+}
+/* <div class="bg-linear-to-r/longer from-indigo-500 to-teal-400"></div> */
+/* ------------ */
