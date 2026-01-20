@@ -25,79 +25,84 @@
     <!-- header starts here -->
     <header class="bg-dark-primary">
         <nav class="flex justify-between items-center w-full max-w-[576px] px-4 mx-auto lg:max-w-[1200px]">
-            <h1 class="text-4xl font-bold py-4">
-                <span class="text-white">Tech</span>
-                <span class="bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 text-transparent bg-clip-text">
-                    Wave
-                </span>
-            </h1>
-
+            <h1 class="text-4xl font-bold py-4"> <span class="text-white">Tech</span> <span
+                    class="bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 text-transparent bg-clip-text">
+                    Wave </span> </h1>
             <ul class="hidden lg:flex gap-5">
                 <li class="text-white text-sm">About</li>
                 <li class="text-white text-sm">Episodes</li>
                 <li class="text-white text-sm">Host</li>
             </ul>
-
             <div>
+
                 <button
                     class="hidden lg:block bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 text-white px-4 py-2 rounded-3xl">
-                    Subscribe <i class="fa-solid fa-arrow-right-long"></i>
-                </button>
+                    Subscribe <i class="fa-solid fa-arrow-right-long"></i> </button>
                 <img src="./assets/hamburger-menu.png" class="lg:hidden" alt="">
             </div>
         </nav>
         <section>
-            <div class="relative w-full max-w-[576px] mx-auto overflow-hidden
-           bg-[url('./assets/hero-bg.png')] bg-cover bg-center bg-no-repeat
-           h-[600px] lg:max-w-none lg:h-[768px]">
+            <div class="relative w-full max-w-[414px] mx-auto overflow-hidden
+            lg:max-w-none lg:w-full
+            bg-[url('./assets/hero-bg.png')] bg-cover bg-center bg-no-repeat
+            h-[600px] lg:h-[768px]">
 
-                <!-- Circle -->
-                <img src="./assets/hero-circle.png" class="absolute h-[220px] w-[220px]
-             top-[80px] left-1/2 -translate-x-1/2
-             lg:h-[350px] lg:w-[350px]
-             lg:left-[790px] lg:top-[90px] lg:translate-x-0" />
+                <!-- Decorative group-->
+                <div class="absolute
+                     top-[80px] left-1/2 -translate-x-1/2
+                     lg:top-[90px] lg:left-[790px] lg:translate-x-0
+                     w-[220px] h-[220px]
+                     lg:w-[350px] lg:h-[350px]">
 
-                <!-- Microphone -->
-                <img src="./assets/microphone.png" class="absolute h-[90px] w-[60px]
-             lg:top-[170px] top-[140px] left-[265px] lg:left-1/2 -translate-x-1/2
-             lg:h-[120px] lg:w-[90px]
-             lg:left-[925px] lg:top-[190px] lg:translate-x-0" />
+                    <!-- Circle -->
+                    <img src="./assets/hero-circle.png" class="w-full h-full" alt="" />
 
-                <!-- NEW -->
-                <button class="absolute top-[70px] lg:left-1/2 left-[320px] -translate-x-1/2
-             lg:top-[110px] lg:left-[1030px] lg:translate-x-0
-             py-2 px-6 bg-[#00FF88] font-bold rounded-3xl">
-                    NEW
-                </button>
+                    <!-- Microphone -->
+                    <img src="./assets/microphone.png" class="absolute
+                       top-[55px] left-[80px]
+                       h-[90px] w-[60px]
+                       lg:top-[100px] lg:left-[135px]
+                       lg:h-[120px] lg:w-[90px]" alt="" />
 
-                <!-- Text -->
+                    <!-- NEW badge -->
+                    <button class="absolute top-[8px] lg:top-[20px] lg:right-[20px] right-[5px]
+                       py-2 px-6 bg-[#00FF88] font-bold rounded-3xl">
+                        NEW
+                    </button>
+                </div>
+
+                <!-- Text content -->
                 <div class="absolute bottom-16 left-1/2 -translate-x-1/2
-         text-center w-full max-w-[576px] px-4
-         lg:bottom-[80px] lg:max-w-[600px]">
+                     text-center w-full max-w-[576px] px-4
+                     lg:bottom-[80px] lg:max-w-[600px]">
+
                     <h1 class="text-5xl lg:text-7xl font-bold text-white">Tech Wave</h1>
+
                     <p class="text-xs lg:text-sm text-white my-6">
                         Your daily dose of tech insights, productivity hacks, and personal growth
                     </p>
 
                     <div class="flex flex-row flex-wrap gap-3 justify-center items-center">
                         <button class="bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500
-                             text-white py-1.5 px-4 lg:py-2 lg:px-6 rounded-3xl text-sm lg:text-base">
+                         text-white py-1.5 px-4 lg:py-2 lg:px-6 rounded-3xl
+                         text-sm lg:text-base">
                             <i class="fa-brands fa-spotify"></i> Listen to Spotify
                         </button>
 
                         <button class="group border border-green-500 text-green-500
-                             py-1.5 px-4 lg:py-2 lg:px-6 rounded-3xl
-                             text-sm lg:text-base
-                             hover:bg-green-500 hover:text-white transition">
+                         py-1.5 px-4 lg:py-2 lg:px-6 rounded-3xl
+                         text-sm lg:text-base
+                         hover:bg-green-500 hover:text-white transition">
                             <i class="fa-regular fa-envelope mr-2 group-hover:text-white"></i>
                             Subscribe
                         </button>
                     </div>
                 </div>
+
             </div>
         </section>
-    </header>
 
+    </header>
     <!-------------------------------------- main starts here -->
     <main class="bg-dark-primary py-20">
         <section class="w-full max-w-[576px] px-4 mx-auto lg:max-w-[1200px]">
@@ -107,18 +112,11 @@
                 <div class="w-[400px] lg:w-[1200px] mx-auto lg:pt-30 text-center">
                     <h1 class="text-3xl lg:text-6xl pb-8">About the Podcast</h1>
                     <p class="text-xs lg:text-sm opacity-80">TechWave is your go-to podcast for staying ahead in the
-                        fast-paced
-                        world of technology. <br>
-                        We break down complex topics into digestible insights, explore productivity strategies that
-                        actually
-                        work,<br>
-                        and share stories of personal growth from industry leaders.</p>
-                    <p class="pb-10 text-sm font-light">Join thousands of young professionals and tech enthusiasts
-                        who
-                        start
-                        their day with
-                        TechWave.
-                    </p>
+                        fast-paced world of technology. <br> We break down complex topics into digestible insights,
+                        explore productivity strategies that actually work,<br> and share stories of personal growth
+                        from industry leaders.</p>
+                    <p class="pb-10 text-sm font-light">Join thousands of young professionals and tech enthusiasts who
+                        start their day with TechWave. </p>
                     <hr class="border-0 border-t border-gray-200/40 my-8">
                 </div>
             </section>
@@ -133,17 +131,15 @@
             </section>
 
             <!-- tech wave grid area -->
-            <!-- tech wave grid area -->
+
             <section class="w-full lg:w-11/12 mx-auto px-4">
                 <div class="text-center">
-                    <h1 class="text-white text-4xl lg:text-6xl font-bold pt-20 lg:pt-40">
-                        Why Choose TechWave
-                    </h1>
+                    <h1 class="text-white text-4xl lg:text-6xl font-bold pt-20 lg:pt-40"> Why Choose TechWave </h1>
                 </div>
 
                 <!-- flexible grid cards wrapper -->
-                <div class="grid grid-cols-1 pt-10 w-full max-w-[600px] lg:max-w-[1600px] mx-auto lg:h-[760px]">
 
+                <div class="grid grid-cols-1 pt-10 w-full max-w-[600px] lg:max-w-[1600px] mx-auto lg:h-[760px]">
                     <!-- top row -->
                     <div class="flex flex-col lg:flex-row lg:gap-5">
 
@@ -152,172 +148,136 @@
                             class="bg-[#351165] p-3 lg:p-10 lg:pt-20 w-[380px] lg:width[700px] h-[225px] lg:h-[470px] rounded-lg mb-4 mx-auto lg:mx-0">
                             <img src="./assets/headphone.png" class="lg:py-5" alt="">
                             <h1 class="text-2xl py-2 lg:py-6 font-bold text-white">Premium Audio Quality</h1>
-                            <p class="text-sm opacity-70 text-white">
-                                Experience crystal-clear sound with professional-grade recording equipment and expert
-                                audio
-                                engineering.
-                            </p>
+                            <p class="text-sm opacity-70 text-white"> Experience crystal-clear sound with
+                                professional-grade recording equipment and expert audio engineering. </p>
                         </div>
-
                         <!-- right column -->
                         <div class="flex flex-col mx-auto lg:mx-0">
-
                             <!-- card-2 -->
                             <div class="bg-[#351165] p-5 w-[380px] h-[225px] lg:w-[635px] lg:h-[225px] rounded-lg mb-4">
                                 <img src="./assets/device.png" class="py-2" alt="">
                                 <h1 class="text-2xl py-2 font-bold text-white">Mobile Friendly</h1>
-                                <p class="text-sm opacity-70 text-white">
-                                    Listen on the go with seamless mobile experience and offline downloads.
-                                </p>
+                                <p class="text-sm opacity-70 text-white"> Listen on the go with seamless mobile
+                                    experience and offline downloads. </p>
                             </div>
-
                             <!-- card-3 -->
                             <div class="bg-[#351165] p-5 w-[380px] h-[225px] lg:w-[635px] lg:h-[225px] rounded-lg mb-4">
                                 <img src="./assets/location.png" class="py-2" alt="">
                                 <h1 class="text-2xl py-6 font-bold text-white">Global Community</h1>
-                                <p class="text-sm opacity-70 text-white">
-                                    Connect with tech enthusiasts from over 120 countries worldwide.
-                                </p>
+                                <p class="text-sm opacity-70 text-white"> Connect with tech enthusiasts from over 120
+                                    countries worldwide. </p>
                             </div>
                         </div>
                     </div>
 
                     <!-- bottom row -->
-                    <div class="flex flex-col lg:flex-row gap-3 mx-auto lg:mx-0">
 
+                    <div class="flex flex-col lg:flex-row gap-3 mx-auto lg:mx-0">
                         <!-- card-4 -->
                         <div
                             class="bg-[#351165] p-3 w-[380px] h-[240px] lg:w-[790px] lg:h-[225px] rounded-lg mb-4 mx-auto lg:mx-0">
                             <img src="./assets/bolt.png" class="py-1 h-[65px] w-[35px]" alt="">
                             <h1 class="text-2xl lg:py-3 font-bold text-white">Exclusive Interviews</h1>
-                            <p class="text-sm opacity-70 text-white">
-                                Get unprecedented access to industry titans and tech visionaries.
-                            </p>
+                            <p class="text-sm opacity-70 text-white"> Get unprecedented access to industry titans and
+                                tech visionaries. </p>
                         </div>
-
                         <!-- card-5 -->
                         <div
                             class="bg-[#351165] px-5 w-[380px] h-[225px] lg:w-[390px] lg:h-[225px] rounded-lg mx-auto lg:mx-0">
                             <img src="./assets/headphone.png" class="py-6" alt="">
                             <h1 class="text-2xl pb-3 font-bold text-white">Rich Resources</h1>
-                            <p class="text-sm opacity-70 text-white">
-                                Access show notes, transcripts, and learning materials.
-                            </p>
+                            <p class="text-sm opacity-70 text-white"> Access show notes, transcripts, and learning
+                                materials. </p>
                         </div>
                     </div>
-
                 </div>
             </section>
-
-
-
         </section>
 
         <!-- featured section -->
+
         <section class="lg:pt-20 pt-10 w-11/12 lg:w-9/12 mx-auto">
             <h1 class="lg:text-5xl text-3xl text-center font-bolder text-white pb-8">Featured Episodes</h1>
-
             <!-- grid cards -->
             <div class="grid grid-cols-1 justify-items-center lg:grid-cols-3 lg:justify-items-stretch gap-0">
                 <!-- grid - 1 -->
-                <div class="h-[400px] w-[380px] bg-[#250D44] rounded-3xl">
-                    <iframe class="rounded-t-3xl" width="380" height="214"
-                        src="https://www.youtube.com/embed/lXUZvyajciY?si=-ZfQLEDO3mK8YuT2" title="YouTube video player"
-                        frameborder="0"
+                <div class="h-[400px] w-[380px] bg-[#250D44] rounded-3xl"> <iframe class="rounded-t-3xl" width="380"
+                        height="214" src="https://www.youtube.com/embed/lXUZvyajciY?si=-ZfQLEDO3mK8YuT2"
+                        title="YouTube video player" frameborder="0"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                         referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                     <div class="px-4">
                         <p class="text-2xl text-white text-bolder pt-3">The Future of AI in Everyday Life</p>
                         <p class="text-white py-3 text-xs opacity-70">Exploring how artificial intelligence is
-                            transforming
-                            our daily
-                            routines and what to
-                            expect in the next decade.</p>
-                        <span class="text-[#00FF88] text-xs"><i class="fa-solid fa-clock" style="color: #00FF88;"></i>42
+                            transforming our daily routines and what to expect in the next decade.</p> <span
+                            class="text-[#00FF88] text-xs"><i class="fa-solid fa-clock" style="color: #00FF88;"></i>42
                             min</span>
                     </div>
                 </div>
                 <!-- grid - 2 -->
-                <div class="h-[400px] w-[380px] bg-[#250D44] rounded-3xl my-8 lg:my-0">
-                    <iframe class="rounded-t-3xl" width="380" height="214"
-                        src="https://www.youtube.com/embed/s9uDVVWN_ZE?si=AIice7IOWbIAUi1z" title="YouTube video player"
-                        frameborder="0"
+                <div class="h-[400px] w-[380px] bg-[#250D44] rounded-3xl my-8 lg:my-0"> <iframe class="rounded-t-3xl"
+                        width="380" height="214" src="https://www.youtube.com/embed/s9uDVVWN_ZE?si=AIice7IOWbIAUi1z"
+                        title="YouTube video player" frameborder="0"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                         referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                     <div class="px-4">
                         <p class="text-2xl text-white text-bolder pt-3">Building Better Habits for Remote Work</p>
-                        <p class="text-white py-3 text-xs opacity-70">Practical strategies for staying productive
-                            and
-                            maintaining work-life balance in a remote environment.</p>
-                        <span class="text-[#00FF88] text-xs"><i class="fa-solid fa-clock" style="color: #00FF88;"></i>35
+                        <p class="text-white py-3 text-xs opacity-70">Practical strategies for staying productive and
+                            maintaining work-life balance in a remote environment.</p> <span
+                            class="text-[#00FF88] text-xs"><i class="fa-solid fa-clock" style="color: #00FF88;"></i>35
                             min</span>
                     </div>
                 </div>
                 <!-- grid - 3 -->
-                <div class="h-[400px] w-[380px] bg-[#250D44] rounded-3xl">
-                    <iframe class="rounded-t-3xl" width="380" height="214"
-                        src="https://www.youtube.com/embed/C75ecC5my_M?si=IQGzxWv-A0ocE8rz" title="YouTube video player"
-                        frameborder="0"
+                <div class="h-[400px] w-[380px] bg-[#250D44] rounded-3xl"> <iframe class="rounded-t-3xl" width="380"
+                        height="214" src="https://www.youtube.com/embed/C75ecC5my_M?si=IQGzxWv-A0ocE8rz"
+                        title="YouTube video player" frameborder="0"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                         referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                     <div class="px-4">
                         <p class="text-2xl text-white text-bolder pt-3">Career Growth in Tech: A Roadmap</p>
-                        <p class="text-white py-3 text-xs opacity-70">Expert advice on navigating your tech career
-                            from
-                            junior developer to senior leadership roles.</p>
-                        <span class="text-[#00FF88] text-xs"><i class="fa-solid fa-clock" style="color: #00FF88;"></i>51
-                            min</span>
+                        <p class="text-white py-3 text-xs opacity-70">Expert advice on navigating your tech career from
+                            junior developer to senior leadership roles.</p> <span class="text-[#00FF88] text-xs"><i
+                                class="fa-solid fa-clock" style="color: #00FF88;"></i>51 min</span>
                     </div>
                 </div>
             </div>
         </section>
 
         <!-- Meet the Host section-->
+
         <section class="lg:py-20 py-10 w-11/12 lg:ml-10 ">
             <h1 class="lg:text-5xl text-4xl text-center font-bolder text-white pb-8 ml-5">Meet the Host</h1>
             <!-- host div -->
             <div
                 class="flex-column lg:ml-70 ml-10 lg:flex gap-10 items-center bg-[#250E44] lg:w-8/12 h-[450px] lg:h-[280px] mx-auto rounded-4xl p-5">
-                <div class="">
-                    <img class="lg:mx-4 mx-auto pb-5" src="./assets/host.png" alt="">
-                </div>
+                <div class=""> <img class="lg:mx-4 mx-auto pb-5" src="./assets/host.png" alt=""> </div>
                 <!-- text and logo -->
-                <div class="rounded-lg lg:text-left text-center mx-auto  ">
+                <div class="rounded-lg lg:text-left text-center mx-auto ">
                     <h1 class="text-3xl font-bolder text-white">Alex Kumar</h1>
                     <p
                         class="text-xs text-white opacity-60 my-4 lg:my-0 lg:pt-5 lg:w-[896px] w-[300px] lg:h-[70px] mx-auto text-center lg:text-left">
-                        Tech
-                        entrepreneur, productivity
-                        expert, and lifelong
-                        learner. Alex has been in the tech
-                        industry for over 10
-                        years,
-                        working with startups and 500 companies. Through TechWave, Alex shares insights from
-                        industry
-                        leaders and practical
-                        advice for anyone looking to grow in tech.</p>
+                        Tech entrepreneur, productivity expert, and lifelong learner. Alex has been in the tech industry
+                        for over 10 years, working with startups and 500 companies. Through TechWave, Alex shares
+                        insights from industry leaders and practical advice for anyone looking to grow in tech.</p>
+
                     <!-- logos -->
-                    <span class="flex gap-8 items-center lg:pt-0 pt-3 lg:pl-0 pl-15 lg:w-[184px]">
-                        <img src="./assets/youtube.png" alt="">
-                        <img src="./assets/x.png" alt="">
-                        <img src="./assets/spotify.png" alt="">
-                        <img src="./assets/instagram.png" alt="">
-                    </span>
+                    <span class="flex gap-8 items-center lg:pt-0 pt-3 lg:pl-0 pl-15 lg:w-[184px]"> <img
+                            src="./assets/youtube.png" alt=""> <img src="./assets/x.png" alt=""> <img
+                            src="./assets/spotify.png" alt=""> <img src="./assets/instagram.png" alt=""> </span>
                 </div>
             </div>
         </section>
     </main>
+
     <!-- footer starts here -->
+
     <footer class="w-full bg-[url('./assets/footer-bg.png')] bg-cover bg-center bg-no-repeat py-20">
         <div class="max-w-[576px] px-4 mx-auto lg:max-w-[1200px] text-center">
-            <h1 class="text-3xl lg:text-7xl font-bold">
-                <span class="text-white">Tech</span>
-                <span
+            <h1 class="text-3xl lg:text-7xl font-bold"> <span class="text-white">Tech</span> <span
                     class="bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 text-transparent bg-clip-text">Wave</span>
             </h1>
-            <p class="text-xs text-white opacity-70 mt-6">
-                © 2026 TechWave Podcast. All rights reserved.
-            </p>
+            <p class="text-xs text-white opacity-70 mt-6">&copy; 2026 TechWave Podcast. All rights reserved. </p>
         </div>
     </footer>
 </body>
